@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Gift</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <style>
+
+         body{
+            text-align: center;
+            font-family:"Happy Monkey", system-ui; 
+            background: #a2d2ff;
+            color: #ffffff;
+            background: linear-gradient(#a2d2ff, pink);
+            
+           
+        }
+        #bff-img{
+            border-radius: 50%;
+            width: 150px;
+            /* border-color: #EFB0C9; */
+            border: 5px solid #EFB2C9;
+        }
+        
+        h1, h2, h3, h4, p{
+            text-shadow: 0 0 1px black;
+        }
+        #bday-age{
+            background: #EFB2C9;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 10px 0 10px 0;
+            
+            
+            
+        }
+        #bday-date{
+            background: #EFB2C9;
+            
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-top: 0px;
+
+            
+
+        }
+        #header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+          
+        }
+       
+        .gift-section{
+            margin-top: 50px;
+        }
+        .gift-hint{
+            margin: 0px;
+            margin-bottom: 20px;
+        }
+        .gift-title{
+            margin-top: 0px;
+        }
+        .gift-img{
+            background-image: url("gift.jpeg");
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+            border: 6px solid white;
+            border-radius: 10px;
+            display: block;
+            /* margin-left: auto;
+            margin-right: auto; */
+            margin: 0px auto;
+        }
+        .gift-img:hover{
+            background-image: url('happy.webp');
+           
+        }
+        .gift-img1{
+
+            background-image: url("gift.jpeg");
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+            border: 6px solid white;
+            border-radius: 10px;
+            display: block;
+            margin: 0px auto;
+
+        }
+        .gift-img1:hover{
+            background-image: url('happy1.webp');
+        }
+        #gift-img-hover:hover{
+            background-image: url('happy2.webp');
+        }
+        #gift-img-hover2:hover{
+            background-image: url('happy3.webp');
+        }
+
+        .gift-img2{
+
+background-image: url("gift.jpeg");
+background-size: cover;
+height: 200px;
+width: 400px;
+border: 6px solid white;
+border-radius: 10px;
+display: block;
+margin: 0px auto;
+
+}
+#gift-img-hover3:hover{
+       background-image: url('happy4.webp');
+}
+footer{
+    width: 400px;
+    display: block;
+    margin: 40px auto 20px;
+    font-style:italic ;
+}
+a{
+    color: white;
+}
+        
+       
+    </style>
+</head>
+<body>
+<!-- 
+    /*
+Challenge:
+Style the app according to the provided design.
+The font is called "Happy Monkey" and can be
+embedded via Google Fonts.
+
+Don't know how to make an image round? Google it!
+Also, consider how you should select the image 
+(class vs id vs element selector).
+*/ -->
+
+
+<!-- /*
+Challenge:
+Add colors to the site based on the provided design.
+
+pink: #EFB0C9
+blue: #a2d2ff
+white: #ffffff
+*/ -->
+
+
+
+<!-- /*
+Challenge:
+Add a thin blurred border around the <h1>, <h2>, 
+and <h4> using the text-shadow technique you 
+learned in the Space Exploration section. Set
+the blur to 1px and the color to black.
+*/
+ -->
+
+
+ <!-- *
+Challenge:
+First, wrap the HTML elements in a <div> with an 
+id called "header".
+
+Then, select the "header" and use flexbox to achieve
+the layout you've been provided in the design slide.
+*/ -->
+
+
+
+<!-- *
+Challenge:
+1. Create a "gift-section" <div> that will wrap
+   all the elements for the first gift.
+2. Add the <h2>, <h3>, and <img> elements, and
+   give all of them their own classes.
+3. Style the elements according to the design.
+
+PS: the image should be 400px wide.
+*/ -->
+
+
+<!-- /*
+Challenge:
+"Fix" the "gift-img" <div> so that it looks 
+like the provided design again.
+
+It needs a height (should be a square), a
+background image, and to be centered again.
+*/ -->
+
+
+
+<!-- /*
+Challenge:
+Swap the gift paper image out with
+the happy.gif when you hover over it!
+*/ -->
+
+
+<!-- /*
+Challenge:
+Create the next GIFt (hot.gif). Its HTML structure 
+should be like the previous one, but without the 
+"gift-hint" element.
+
+However, now that you have multiple GIFts on the page,
+you cannot use the "gift-img" class to set the GIF 
+background-image(s) on :hover. Each GIFt will need a 
+unique id that controls which background image that 
+should be shown when hovering over the element.
+*/ -->
+
+
+
+<!-- /*
+Challenge:
+Create the "genius" and "badass" GIFt sections.
+
+Texts:
+If I had to describe you with ONE word 👇
+
+The only person as badass as you 💪
+
+*/
+ -->
+
+ <!-- *
+Challenge:
+Create the "cheers" GIFt section.
+
+Note: this GIFt should have a height of 200px. 
+Select the #gift-img-cheers id and override 
+the height that the element got from the 
+.gift-img class.
+
+Text: 
+This one's for you, my friend 🥂
+*/ -->
+
+<!-- 
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/ -->
+
+
+
+<div id="header">
+<h1>Today is Malaika's Birthday 🎉</h1>
+<img id="bff-img" src="https://wallpapers.com/images/hd/aesthetic-profile-picture-52t290ggbex44jma.jpg" >
+<h2 id="bday-age">20 years old</h2>
+<h4 id="bday-date">01.11.24</h4>
+</div>
+
+<div class="gift-section">
+    <h2 class="gift-title">Here's how happy I am for you today🥳</h2>
+    <h3 class="gift-hint">(Hover over the gift)</h3>
+    <div class="gift-img"></div>
+
+
+
+</div>
+
+    
+<div class="gift-section1">
+    <h2 class="gift-title1">How people react when you enter the room 😍</h2>
+   
+    <div class="gift-img1"></div>
+
+
+
+</div>
+<div class="gift-section2">
+    <h2 class="gift-title2">If I had to describe you with ONE word 👇
+    </h2>
+   
+    <div class="gift-img" id="gift-img-hover"></div>
+
+
+
+</div>
+<div class="gift-section3">
+    <h2 class="gift-title3">If I had to describe you with ONE word 👇
+    </h2>
+    <div class="gift-img" id="gift-img-hover2"></div>
+    </div>
+   
+<div class="gift-section4">
+    <h2 class="gift-title4">This one's for you, my friend 🥂
+    </h2>
+    <div class="gift-img2" id="gift-img-hover3"></div>
+    </div>
+
+    <footer>
+        <p>Want to create your own Birthday GIFT site? Take <a href="https://scrimba.com/learn/htmlandcs" target="_blank"><em>this HTML & CSS course.</em></a></p>
+    </footer>
+   
+   
+
+    
+</body>
+</html>
